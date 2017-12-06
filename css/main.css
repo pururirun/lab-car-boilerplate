@@ -1,1 +1,158 @@
-/* Los estilos de tu proyecto */
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+
+nav{
+  padding-bottom: 1em;
+}
+
+.no-margin{
+  margin: 0;
+}
+
+.nav-top{
+  padding-top: 1em;
+}
+
+.firstImage{
+  background-image: url(../assets/images/taxi.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  height: 30em;
+}
+
+.firstBox{
+  background-color: #fbbd00;
+  color: white;
+  padding-bottom: 2em;
+  margin-top: 5em;
+}
+
+.logoBlanco{
+  width: 15%;
+}
+
+.line{
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.secondSection{
+  background-color: #fbbd00;
+  color: white;
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+.secondImage{
+  background-image: url(../assets/images/conduce.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.border{
+  border: 1px solid white;
+  width: 80%;
+}
+
+.iPhoneImg{
+  width: 100%;
+}
+
+.boxTres{
+  color: white;
+  background-color: rgba(0,0,0,0.5);
+  padding-left: 2em;
+  padding-top: 10%;
+  padding-bottom: 50%;
+
+
+}
+
+.btn-first{
+  background-color: #fbbd00;
+  border: none;
+}
+
+.seccionCuatro{
+  background-color: #fbbd00;
+  color: white;
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+
+.seccionCinco{
+  background-color: #2F2F2F;
+  color: white;
+}
+
+.colIcon{
+  padding-top: 13em;
+}
+
+.colImg{
+  padding-top: 5em;
+}
+
+.input-color{
+  background-color:#fbbd00;
+}
+
+.form-control::placeholder{
+ color: white;
+}
+
+.input-group{
+  padding-bottom: 4%;
+}
+
+.imgStore{
+  width: 150px;
+  margin-top: 1.3em;
+}
+
+.span{
+  border: none;
+}
+
+.btn-Rute{
+  margin-left: 30%;
+  margin-bottom: 1em;
+}
+
+.texTwo{
+  padding-top: 1em;
+}
+
+.btn-1{
+  margin-bottom: 1em;
+}
+
+.btn-2{
+  margin-top: 1em;
+}
+
+@media (min-width: 200px) and (max-width:768px){
+	.btn-hamburger{
+		float:left;
+	}
+
+.description{
+  width: 120%;
+  margin-left: 1%;
+
+}
+
+.img-logo{
+	margin-left: 50%;
+	}
+
+.firstBox{
+  margin-left: 3em;
+}
+}
