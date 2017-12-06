@@ -137,6 +137,15 @@ nav{
   margin-top: 1em;
 }
 
+.map{
+  border: 1px solid white;
+  width: 315px;
+  height: 315px;
+  padding-top: 6px;
+  padding-left: 0.5em;
+
+}
+
 @media (min-width: 200px) and (max-width:768px){
 	.btn-hamburger{
 		float:left;
