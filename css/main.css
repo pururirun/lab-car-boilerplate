@@ -143,7 +143,30 @@ nav{
   height: 315px;
   padding-top: 6px;
   padding-left: 0.5em;
+}
 
+.fondo-modal{
+  background-color: #00b29d;
+}
+
+.user-img{
+  width: 20%;
+  margin-left: 15em;
+}
+
+.ingresar{
+  background-color: white;
+  width: 30em;
+}
+
+.btn-modi{
+  margin-left: 11em;
+  margin-bottom: 1em;
+  background-color: #fbbd00;
+}
+
+.input-modal{
+  margin-top: 1em;
 }
 
 @media (min-width: 200px) and (max-width:768px){

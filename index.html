@@ -31,7 +31,8 @@
   	         	<ul class="nav navbar-nav">
   		          <li><a href="#">Viaja</a></li>
   		          <li><a href="#about">Conduce</a></li>
-  		          <li><a href="#contact">Inicia Sesión</a></li>
+  		          <li><a href="#modal1" class="btn" data-toggle="modal">Inicia Sesión</a></li>
+
   	        	</ul>
   	       </div>
        	 </div>
@@ -105,7 +106,7 @@
               <div class="col-lg-12">
                 <div class="input-group">
                   <span class="input-group-addon span input-color" id="sizing-addon2"><img src="assets/images/shape.png"></span>
-                  <input type="text" class="form-control input-color" placeholder="Username" aria-describedby="sizing-addon2">
+                  <input type="text" class="form-control input-color" placeholder="Ingrese su punto de partida" aria-describedby="sizing-addon2">
                 </div>
               </div>
             </div>
@@ -113,7 +114,7 @@
                <div class="col-lg-12">
                  <div class="input-group">
                    <span class="input-group-addon input-color span" id="sizing-addon2"><img src="assets/images/shape2.png"></span>
-                   <input type="text" class="form-control input-color" placeholder="Username" aria-describedby="sizing-addon2">
+                   <input type="text" class="form-control input-color" placeholder="Ingrese su destino" aria-describedby="sizing-addon2">
                  </div>
                </div>
             </div>
@@ -189,5 +190,36 @@
       </div>
     </footer>
 
+    <div class="container">
+      <div class="modal fade" id="modal1">
+        <div class="modal-dialog">
+          <div class="modal-content fondo-modal">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+              <img src="assets/images/user.png" class="img-circle user-img">
+            </div>
+            <div class="modal-body">
+              <div class="container ingresar">
+                <div class="input-group input-modal">
+                  <span class="input-group-addon" id="sizing-addon2"><img src="assets/images/shape2.png"></span>
+                  <input type="text" class="form-control" placeholder="Username" aria-describedby="sizing-addon2">
+                </div>
+                <div class="input-group">
+                  <span class="input-group-addon" id="sizing-addon2"><img src="assets/images/shape2.png"></span>
+                  <input type="text" class="form-control" placeholder="Username" aria-describedby="sizing-addon2">
+                </div>
+                <button class="btn btn-default btn-modi" type="submit"><strong>LOGIN</strong></button>
+                <p>Forgot password? <a href="#">Click here</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="assets/js/app.js" type="text/javascript"></script>
   </body>
 </html>
