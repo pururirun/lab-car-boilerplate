@@ -29,10 +29,9 @@
           <div class="container">
   	       <div id="navbar" class="navbar-collapse collapse  navbar-right nav-top">
   	         	<ul class="nav navbar-nav">
-  		          <li><a href="#">Viaja</a></li>
-  		          <li><a href="#about">Conduce</a></li>
+  		           <li><a href="#modal3" class="btn" data-toggle="modal">Viaja</a></li>
+  		          <li><a href="#modal2" class="btn" data-toggle="modal">Conduce</a></li>
   		          <li><a href="#modal1" class="btn" data-toggle="modal">Inicia Sesión</a></li>
-
   	        	</ul>
   	       </div>
        	 </div>
@@ -195,7 +194,7 @@
         <div class="modal-dialog">
           <div class="modal-content fondo-modal">
             <div class="modal-header">
-              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+              <button type="button" class="close btn-black" data-dismiss="modal" aria-hidden="true">&times;</button>
               <img src="assets/images/user.png" class="img-circle user-img">
             </div>
             <div class="modal-body">
@@ -206,9 +205,9 @@
                 </div>
                 <div class="input-group">
                   <span class="input-group-addon" id="sizing-addon2"><span class="glyphicon glyphicon-lock" aria-hidden="true"></span></span>
-                  <input type="text" class="form-control placeholder-text" placeholder="Username" aria-describedby="sizing-addon2">
+                  <input type="text" class="form-control placeholder-text" placeholder="Password" aria-describedby="sizing-addon2">
                 </div>
-                <button class="btn btn-default btn-modi" type="submit"><strong>LOGIN</strong></button>
+                <button class="btn btn-default btn-modi btn-block" type="submit"><strong>LOGIN</strong></button>
                 <p>Forgot password? <a href="#" class="click">Click here</a></p>
               </div>
             </div>
@@ -216,6 +215,78 @@
         </div>
       </div>
     </div>
+
+    <div class="container">
+      <div class="modal fade" id="modal2">
+        <div class="modal-dialog">
+          <div class="modal-content fondo-modal2">
+            <div class="modal-header">
+              <button type="button" class="close btn-black" data-dismiss="modal" aria-hidden="true">&times;</button>
+            </div>
+            <div class="modal-body">
+              <p><strong>¿Tienes vehículo de 4 puertas?</strong></p>
+              <select class="form-control input-modal2">
+                <option>Sí</option>
+              </select>
+              <p><strong>Marca</strong></p>
+              <select class="form-control input-modal2">
+                <option>Elige la marca del vehículo</option>
+              </select>
+              <p>No ves tu vehículo en la lista? Envía un correo a <a href="#">sociosmdv@uber.com</a></p>
+              <p><strong>Modelo</strong></p>
+              <select class="form-control input-modal2">
+                <option>Módelo 1</option>
+              </select>
+              <p><strong>Año</strong></p>
+              <select class="form-control input-modal2">
+                <option>2017</option>
+              </select>
+              <p><strong>Número de la matrícula</strong></p>
+              <select class="form-control input-modal2">
+                <option>Número de la matrícula</option>
+              </select>
+              <p>La información de la matrícula ayuda a los clientes a identificar tu vehículo</p>
+              <button class="btn btn-default btn-modi btn-block" type="submit"><strong>ENVIAR</strong></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="modal fade" id="modal3">
+        <div class="modal-dialog">
+          <div class="modal-content fondo-modal3">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            </div>
+            <div class="modal-body modal-body3">
+              <button class="btn btn-default btn-modi btn-block" type="submit"><strong>¿Ya tienes una cuenta?</strong></button>
+              <p><strong>O CREA UNA CUENTA NUEVA</strong></p>
+              <form>
+                <div class="row">
+                  <div class="col-lg-6">
+                    <input type="text" class="form-control" placeholder="Nombre">
+                  </div>
+                  <div class="col-lg-6">
+                    <input type="text" class="form-control" placeholder="Apellido">
+                  </div>
+                </div>
+              </form>
+               <input type="email" class="form-control input-modal" id="exampleInputEmail3" placeholder="Correo electronico">
+               <input type="email" class="form-control input-modal" id="exampleInputEmail3" placeholder="Teléfono">
+               <input type="email" class="form-control input-modal" id="exampleInputEmail3" placeholder="Contraseña">
+               <input type="email" class="form-control input-modal" id="exampleInputEmail3" placeholder="Ciudad">
+               <input type="email" class="form-control input-modal" id="exampleInputEmail3" placeholder="(Opcional) Código de invitación">
+               <button class="btn btn-default btn-modi2 btn-block" type="submit"><strong>¿Cómo te enteraste de nosotros? </strong><span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span></button>
+               <button class="btn btn-default btn-modi2 btn-block" type="submit"><strong>ENVIAR</strong></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>

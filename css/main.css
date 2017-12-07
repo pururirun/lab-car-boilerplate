@@ -103,7 +103,7 @@ nav{
   background-color:#fbbd00;
 }
 
-.form-control::placeholder{
+.input-color::placeholder{
  color: white;
 }
 
@@ -146,7 +146,12 @@ nav{
 }
 
 .fondo-modal{
-  background-color: #00b29d;
+  background-color: #2f2f2f;
+}
+
+.fondo-modal2{
+  background-color: #2f2f2f;
+  color: white;
 }
 
 .user-img{
@@ -156,27 +161,44 @@ nav{
 
 .ingresar{
   background-color: #f5f5f5;
-  width: 50%;
+  width: 60%;
+  border-radius: 5px;
 }
 
 .btn-modi{
   margin-bottom: 1em;
   background-color: #fbbd00;
+  border: none;
+}
+
+.btn-modi2{
+  margin-top: 1em;
+  background-color: #fbbd00;
+  border: none;
 }
 
 .input-modal{
   margin-top: 1em;
 }
 
-.form-control::placeholder{
- color: white;
+.input-modal2{
+  margin-bottom: 1em;
 }
+
 .placeholder-text::placeholder{
  color: black;
 }
 
 .click{
   color: red;
+}
+
+.modal-body3{
+  text-align: center;
+}
+
+.btn-black{
+  color: white;
 }
 
 @media (min-width: 200px) and (max-width:768px){
